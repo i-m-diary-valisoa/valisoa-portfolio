@@ -90,7 +90,7 @@ export default function ProjectCard({ project, index }: { project: Project; inde
                 </button>
               </div>
               
-              <div className="overflow-y-auto p-6 grow custom-scrollbar">
+              <div className="overflow-y-auto p-6 grow custom-scrollbar" style={{ overscrollBehavior: "contain" }}>
                 {project.gallery && project.gallery.length > 0 ? (
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {project.gallery.map((imgSrc, i) => (
