@@ -66,7 +66,7 @@ export default function HeroSection() {
             {/* Conteneur de l'image (Spider-Man placeholder) */}
             <div className="relative h-full w-full bg-[#130d2d] rounded-2xl border border-white/5 shadow-2xl overflow-hidden">
               <Image
-                src="/images/hero-photo.png"
+                src="/images/hero-picture.png"
                 alt="Photo de Diary Valisoa"
                 fill
                 className="object-cover"

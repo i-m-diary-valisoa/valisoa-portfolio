@@ -7,16 +7,16 @@ import { SiNextdotjs, SiReact, SiTypescript, SiPrisma, SiShadcnui, SiTailwindcss
 
 export default function AboutSection() {
   const mainTech = [
-    { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF" },
+    { name: "Next.js", icon: SiNextdotjs, color: "#00171f" },
     { name: "React", icon: SiReact, color: "#61DAFB" },
-    { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+    { name: "TypeScript", icon: SiTypescript, color: "#0096c7" },
     { name: "Prisma", icon: SiPrisma, color: "#FFFFFF" },
-    { name: "Shadcn/ui", icon: SiShadcnui, color: "#FFFFFF" },
+    { name: "Shadcn/ui", icon: SiShadcnui, color: "#00171f" },
     { name: "TailwindCSS", icon: SiTailwindcss, color: "#06B6D4" },
-    { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
+    { name: "Node.js", icon: SiNodedotjs, color: "#02c39a" },
     { name: "Express", icon: SiExpress, color: "#FFFFFF" },
-    { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
-    { name: "Framer Motion", icon: SiFramer, color: "#0055FF" }
+    { name: "PostgreSQL", icon: SiPostgresql, color: "#00a8e8" },
+    { name: "Framer Motion", icon: SiFramer, color: "#ff66b3" }
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function AboutSection() {
           transition={{ duration: 0.8 }}
         >
           <div className="relative group">
-            <div className="absolute -inset-3 bg-linear-to-r from-primary to-accent rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-800"></div>
+            <div className="absolute -inset-3 bg-linear-to-r from-primary to-accent rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-800"></div>
             <div className="relative glass-card rounded-3xl p-8 md:p-12 overflow-hidden bg-base-300/40 backdrop-blur-md">
               <div className="absolute top-0 right-0 p-4 font-mono text-[80px] opacity-5 select-none">L3</div>
               <h2 className="text-4xl font-bold mb-6">Mon <span className="text-primary">Univers</span></h2>
