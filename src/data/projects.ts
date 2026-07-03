@@ -1,0 +1,54 @@
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  longDescription: string;
+  image: string;
+  gallery?: string[];
+  tech: string[];
+  link?: string;
+  github?: string;
+}
+
+export const projects: Project[] = [
+  {
+    id: "restau-manager",
+    title: "InstaPlate",
+    description: "Application de gestion de commandes avec logique de panier complexe.",
+    longDescription: "Une solution complète pour restaurants incluant une gestion de panier dynamique, synchronisation en temps réel des commandes et un dashboard administrateur robuste. Développé avec React TS et une architecture Backend scalable.",
+    image: "/images/project-resto.jpg",
+    gallery: [
+      "/images/projects/instaplate/login.png",
+      "/images/projects/instaplate/turnover.png",
+      "/images/projects/instaplate/bestselling.png",
+      "/images/projects/instaplate/neworder.png",
+      "/images/projects/instaplate/basket.png",
+      "/images/projects/instaplate/payment.png"
+    ],
+    tech: ["React TS", "Node.js", "Express", "Prisma", "PostgreSQL"],
+    github: "#",
+  },
+  {
+    id: "lumina",
+    title: "Lumina",
+    description: "Outil d'analyse et de statistiques de vente à moyenne performance",
+    longDescription: "Plateforme de visualisation de données transformant les chiffres bruts en insights exploitables. Utilise des graphiques interactifs pour suivre les performances commerciales en temps réel.",
+    image: "/images/project-sales.jpg",
+    gallery: [
+      "/images/projects/lumina/stats.png",
+      "/images/projects/lumina/form.png",
+    ],
+    tech: ["React", "Recharts", "Node.js", "TailwindCSS"],
+    github: "#",
+  },
+  {
+    id: "bibliopocket",
+    title: "BiblioPocket",
+    description: "Système intelligent de gestion de bibliothèque.",
+    longDescription: "Gestion simplifiée des emprunts, retours et inventaire de livres. Inclut un moteur de recherche performant et une gestion fine des utilisateurs et des stocks.",
+    image: "/images/project-library.jpg",
+    gallery: [],
+    tech: ["React TS", "Prisma", "Express", "SQLite"],
+    github: "#",
+  },
+];

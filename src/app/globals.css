@@ -1,26 +1,60 @@
 @import "tailwindcss";
+@plugin "daisyui";
+@plugin "@toolwind/corner-shape";
 
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+/* Thème Synthwave Customizations */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1a103d;
+  --foreground: #f0f0f0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+[data-theme="synthwave"] {
+  --color-primary: #ff7edb;
+  --color-secondary: #b794f4;
+  --color-accent: #2de2e6;
+  --color-neutral: #191d24;
+  --color-base-100: #2d1b69;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  scroll-behavior: auto !important; /* Pour Lenis */
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* Glassmorphism utility */
+.glass-card {
+  background: rgba(45, 27, 105, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 126, 219, 0.2);
+  border-radius: 1rem;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d1b69;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff7edb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2de2e6;
 }
