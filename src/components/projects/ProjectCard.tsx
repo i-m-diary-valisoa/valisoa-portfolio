@@ -78,7 +78,7 @@ export default function ProjectCard({ project, index }: { project: Project; inde
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
-              className="relative w-full max-w-5xl max-h-[90vh] bg-base-100 rounded-3xl border border-white/10 overflow-hidden flex flex-col shadow-2xl"
+              className="relative w-full max-w-5xl max-h-[90vh] bg-base-100 rounded-xl border border-white/10 overflow-hidden flex flex-col shadow-2xl"
             >
               <div className="flex justify-between items-center p-6 border-b border-white/5">
                 <h2 className="text-2xl font-bold">{project.title} - Galerie</h2>

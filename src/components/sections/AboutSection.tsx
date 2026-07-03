@@ -59,7 +59,7 @@ export default function AboutSection() {
             ))}
           </div>
           
-          <div className="mt-12 p-6 rounded-2xl bg-base-200/50 border border-white/5">
+          <div className="mt-12 p-6 rounded-lg bg-base-200/30 border border-white/5">
             "Le code est ma toile, React mon pinceau. J'aime transformer des logiques complexes en interfaces élégantes."
           </div>
         </motion.div>
