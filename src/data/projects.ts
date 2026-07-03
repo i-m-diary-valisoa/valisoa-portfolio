@@ -25,7 +25,7 @@ export const projects: Project[] = [
       "/images/projects/instaplate/basket.png",
       "/images/projects/instaplate/payment.png"
     ],
-    tech: ["React TS", "Node.js", "Express", "Prisma", "PostgreSQL"],
+    tech: ["React TS", "Node.js", "Zustand", "Express", "Prisma", "PostgreSQL"],
     github: "#",
   },
   {

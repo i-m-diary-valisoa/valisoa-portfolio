@@ -8,7 +8,7 @@ const skillCategories = [
   {
     title: "Frontend",
     icon: <LuLayoutList className="text-primary" />,
-    skills: ["React TS", "Next.js", "TailwindCSS", "Framer Motion", "DaisyUI"]
+    skills: ["React TS", "Next.js", "TailwindCSS", "Framer Motion", "Shadcnui"]
   },
   {
     title: "Backend",
@@ -16,7 +16,7 @@ const skillCategories = [
     skills: ["Node.js", "Express", "Prisma", "REST API", "Auth JWT"]
   },
   {
-    title: "Database & Tools",
+    title: "Base de Données et Outils",
     icon: <LuDatabase className="text-accent" />,
     skills: ["PostgreSQL", "MySQL", "Git / GitHub", "Docker", "Postman"]
   }
@@ -34,7 +34,7 @@ export default function SkillsSection() {
             whileHover={{ y: -6, scale: 1.01 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: idx * 0.1 }}
-            className="p-8 rounded-xl bg-base-300/30 backdrop-blur-md border border-white/5 hover:border-primary/40 hover:bg-base-300/50 transition-all duration-200 cursor-default"
+            className="p-8 rounded-xl bg-base-300/20 backdrop-blur-md border border-white/10 hover:border-primary/40 hover:bg-base-300/50 transition-all duration-200 cursor-default"
           >
             <div className="w-12 h-12 rounded-lg bg-base-300 flex items-center justify-center mb-6 shadow-inner">
               {cat.icon}
