@@ -25,6 +25,27 @@ const skillCategories = [
 export default function SkillsSection() {
   return (
     <SectionWrapper id="skills">
+      <div className="text-center mb-16 max-w-2xl mx-auto">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-3xl md:text-4xl font-bold mb-6 tracking-tight"
+        >
+          Compétences & <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary">Technologies</span>
+        </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="text-gray-400 text-lg"
+        >
+          Voici les principales technologies que j'utilise pour concevoir des applications web modernes, performantes et scalables.
+        </motion.p>
+      </div>
+
       <div className="grid md:grid-cols-3 gap-8">
         {skillCategories.map((cat, idx) => (
           <motion.div
