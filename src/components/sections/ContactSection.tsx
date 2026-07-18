@@ -64,7 +64,7 @@ export default function ContactSection() {
                 <div className="w-10 h-10 text-primary rounded-full bg-base-300 flex items-center justify-center group-hover:scale-110 transition-transform">
                   <LuMail size={18} />
                 </div>
-                diaryniaina8@gmail.com
+                tefyniaina11@gmail.com
               </a>
               <div className="flex gap-4 pt-4">
                 <a href="https://github.com/i-m-diary-valisoa" className="btn btn-circle btn-outline btn-md border-white/10 hover:border-primary hover:text-primary">
