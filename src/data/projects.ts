@@ -25,7 +25,7 @@ export const projects: Project[] = [
       "/images/projects/instaplate/basket.png",
       "/images/projects/instaplate/payment.png"
     ],
-    tech: ["React TS", "Node.js", "Zustand", "Express", "Prisma", "PostgreSQL"],
+    tech: ["React TS", "Node.js", "Zustand", "Express", "SQL", "PostgreSQL"],
     github: "#",
   },
   {
@@ -38,7 +38,7 @@ export const projects: Project[] = [
       "/images/projects/lumina/stats.png",
       "/images/projects/lumina/form.png",
     ],
-    tech: ["React", "Recharts", "Node.js", "TailwindCSS"],
+    tech: ["React", "Recharts", "Prisma", "Node.js", "TailwindCSS"],
     github: "#",
   },
   {
@@ -49,6 +49,6 @@ export const projects: Project[] = [
     image: "/images/project-library.jpg",
     gallery: [],
     tech: ["React TS", "Prisma", "Express", "SQLite"],
-    github: "#",
+    github: "#"
   },
 ];
