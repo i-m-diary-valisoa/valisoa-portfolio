@@ -67,10 +67,10 @@ export default function ContactSection() {
                 tefyniaina11@gmail.com
               </a>
               <div className="flex gap-4 pt-4">
-                <a href="https://github.com/i-m-diary-valisoa" className="btn btn-circle btn-outline btn-md border-white/10 hover:border-primary hover:text-primary">
+                <a href="https://github.com/ratefinjanahary" className="btn btn-circle btn-outline btn-md border-white/10 hover:border-primary hover:text-primary">
                   <FaGithub size={18} />
                 </a>
-                <a href="#" className="btn btn-circle btn-outline btn-md border-white/10 hover:border-primary hover:text-primary">
+                <a href="" className="btn btn-circle btn-outline btn-md border-white/10 hover:border-primary hover:text-primary">
                   <FaLinkedin size={18} />
                 </a>
               </div>
