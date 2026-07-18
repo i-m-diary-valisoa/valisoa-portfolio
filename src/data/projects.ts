@@ -52,6 +52,6 @@ export const projects: Project[] = [
     image: "/images/project-library.jpg",
     gallery: [],
     tech: ["Next.js","React TS", "Shadcn", "TailwindCSS", "Node.js", "NestJS", "Prisma", "PostgreSQL"],
-    github: ""
+    github: "https://github.com/ratefinjanahary/library-app-api.git"
   },
 ];
