@@ -25,7 +25,7 @@ export const projects: Project[] = [
       "/images/projects/instaplate/basket.png",
       "/images/projects/instaplate/payment.png"
     ],
-    tech: ["React TS", "Node.js", "Zustand", "Express", "SQL", "PostgreSQL"],
+    tech: ["React", "TS", "Shadcn", "TailwindCSS", "Zustand", "Node.js", "Express", "SQL", "PostgreSQL"],
     github: "",
   },
   {
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     longDescription: "Gestion simplifiée des emprunts, retours et inventaire de livres. Inclut un moteur de recherche performant et une gestion fine des utilisateurs et des stocks.",
     image: "/images/project-library.jpg",
     gallery: [],
-    tech: ["React TS", "Prisma", "Express", "SQLite"],
+    tech: ["Next.js","React TS", "Shadcn", "TailwindCSS", "Node.js", "NestJS", "Prisma", "PostgreSQL"],
     github: ""
   },
 ];

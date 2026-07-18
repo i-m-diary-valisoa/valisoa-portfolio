@@ -24,7 +24,7 @@ export default function ProjectCard({ project, index }: { project: Project; inde
           {/* Placeholder pour l'image */}
           <div className="h-48 bg-base-300 relative overflow-hidden">
             <div className="absolute inset-0 bg-linear-to-t from-base-100 to-transparent opacity-60"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-primary/20 font-bold text-4xl select-none group-hover:scale-110 transition-transform duration-700 uppercase tracking-tighter">
+            <div className="absolute inset-0 flex items-center justify-center text-primary/20 font-bold text-4xl select-none group-hover:scale-110 transition-transform duration-700">
               {project.title}
             </div>
           </div>
@@ -43,12 +43,12 @@ export default function ProjectCard({ project, index }: { project: Project; inde
             
             <div className="flex items-center gap-4 mt-auto">
               {project.github && (
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-3 rounded-md bg-base-300 hover:bg-primary/20 hover:text-primary transition-all">
+                <a href={project.github} target="_blank" className="p-3 rounded-md bg-base-300/10 hover:bg-primary/20 hover:text-primary transition-all">
                   <FaGithub size={18} />
                 </a>
               )}
               {project.link && (
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="p-3 rounded-md bg-base-300 hover:bg-primary/20 hover:text-primary transition-all">
+                <a href={project.link} target="_blank" className="p-3 rounded-md bg-base-300 hover:bg-primary/20 hover:text-primary transition-all">
                   <LuExternalLink size={18} />
                 </a>
               )}
