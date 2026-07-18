@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "/images/projects/instaplate/payment.png"
     ],
     tech: ["React TS", "Node.js", "Zustand", "Express", "SQL", "PostgreSQL"],
-    github: "#",
+    github: "",
   },
   {
     id: "lumina",
@@ -35,11 +35,14 @@ export const projects: Project[] = [
     longDescription: "Plateforme de visualisation de données transformant les chiffres bruts en insights exploitables. Utilise des graphiques interactifs pour suivre les performances commerciales en temps réel.",
     image: "/images/project-sales.jpg",
     gallery: [
-      "/images/projects/lumina/stats.png",
-      "/images/projects/lumina/form.png",
+      "/images/projects/lumina/login-page.png",
+      "/images/projects/lumina/dashboard.png",
+      "/images/projects/lumina/sales-list.png",
+      "/images/projects/lumina/new-sale.png",
+      "/images/projects/lumina/profile-page.png",
     ],
-    tech: ["React", "Recharts", "Prisma", "Node.js", "TailwindCSS"],
-    github: "#",
+    tech: ["React", "TS", "Shadcn", "TailwindCSS", "Prisma", "Node.js", "Express", "PostgreSQL"],
+    github: "https://github.com/ratefinjanahary/sales-mgm-api.git",
   },
   {
     id: "bibliopocket",
@@ -49,6 +52,6 @@ export const projects: Project[] = [
     image: "/images/project-library.jpg",
     gallery: [],
     tech: ["React TS", "Prisma", "Express", "SQLite"],
-    github: "#"
+    github: ""
   },
 ];
