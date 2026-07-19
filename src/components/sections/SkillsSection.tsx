@@ -18,7 +18,7 @@ const skillCategories = [
   {
     title: "Base de Données et Outils",
     icon: <LuDatabase className="text-accent" />,
-    skills: ["PostgreSQL", "MySQL", "Git / GitHub", "Docker", "Postman"]
+    skills: ["PostgreSQL", "MySQL", "Git / GitHub", "Vercel", "Render", "Heroku"]
   }
 ];
 
