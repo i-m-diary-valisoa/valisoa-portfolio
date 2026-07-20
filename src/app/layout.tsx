@@ -14,7 +14,7 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: "Diary Valisoa",
-  description: "Portfolio expérimental d'un étudiant en L3 Informatique à l'ENI Fianarantsoa.",
+  description: "Portfolio de diary valisoa etudiant en L3 Informatique à l'ENI Fianarantsoa.",
 };
 
 export default function RootLayout({

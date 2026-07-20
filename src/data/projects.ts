@@ -45,12 +45,19 @@ export const projects: Project[] = [
     github: "https://github.com/ratefinjanahary/sales-mgm-api.git",
   },
   {
-    id: "bibliopocket",
-    title: "BiblioPocket",
+    id: "bibli",
+    title: "Bibli",
     description: "Système intelligent de gestion de bibliothèque.",
     longDescription: "Gestion simplifiée des emprunts, retours et inventaire de livres. Inclut un moteur de recherche performant et une gestion fine des utilisateurs et des stocks.",
-    image: "",
-    gallery: [],
+    image: "/images/bibli-cover.png",
+    gallery: [
+      "/images/projects/bibli/login-page.png",
+      "/images/projects/bibli/dashboard.png",
+      "/images/projects/bibli/borrowings.png",
+      "/images/projects/bibli/books.png",
+      "/images/projects/bibli/categories.png",
+      "/images/projects/bibli/catalog.png",
+    ],
     tech: ["Next.js","React TS", "Shadcn", "TailwindCSS", "Node.js", "NestJS", "Prisma", "PostgreSQL"],
     github: "https://github.com/ratefinjanahary/library-app-api.git"
   },
